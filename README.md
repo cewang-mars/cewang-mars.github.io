@@ -1,6 +1,6 @@
 # Ce Wang academic homepage
 
-Live site: https://cewang-sysu.github.io/
+Live site: https://cewang-mars.github.io/
 
 This public repository is the GitHub Pages publishing mirror for Ce Wang’s four-page academic homepage: Homepage, Publications, CV, and Interests. The maintained source lives in a separate private repository.
 

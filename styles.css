@@ -70,6 +70,10 @@ img { display: block; max-width: 100%; }
 .interests-gallery figure { margin: 0; }
 .interests-gallery img { width: 100%; aspect-ratio: 4/3; object-fit: cover; }
 .interests-gallery figcaption { margin-top: .45rem; color: var(--muted); font-size: .9rem; }
+.visitor-globe { width: 250px; max-width: 100%; min-height: 250px; margin: 0 auto .65rem; text-align: center; }
+.visitor-section .visitor-note, .visitor-section .visitor-privacy { max-width: 520px; margin-right: auto; margin-left: auto; color: var(--muted); font-size: .88rem; text-align: center; }
+.visitor-note { font-weight: 700; }
+.visitor-privacy { font-size: .82rem; }
 .site-footer { border-top: 1px solid var(--line); padding: 1.5rem 2rem 2rem; color: var(--muted); font-size: .86rem; text-align: center; }
 .site-footer a { color: inherit; }
 @media (max-width: 740px) {

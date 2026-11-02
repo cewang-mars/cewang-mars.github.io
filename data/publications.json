@@ -358,29 +358,5 @@
         }
       ]
     }
-  ],
-  "projects": [
-    {
-      "title": "CTSpine1K: A Large-Scale Dataset for Spinal Vertebrae Segmentation in Computed Tomography",
-      "authors": "Yang Deng, Ce Wang, Yuan Hui, Qian Li, ... & S. Kevin Zhou*",
-      "venue": "Dataset",
-      "year": 2021,
-      "links": [
-        {
-          "label": "Available Online",
-          "url": "https://github.com/MIRACLE-Center/CTSpine1K"
-        }
-      ]
-    },
-    {
-      "title": "The code for reproducing MAR (Metal Artifact Reduction) dataset",
-      "venue": "Dataset",
-      "links": [
-        {
-          "label": "Available Online",
-          "url": "https://github.com/MIRACLE-Center/DuDoNet"
-        }
-      ]
-    }
   ]
 }

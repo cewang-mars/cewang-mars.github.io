@@ -49,7 +49,6 @@ async function renderPublications() {
   const targets = {
     published: document.querySelector('#published-list'),
     preprints: document.querySelector('#preprints-list'),
-    projects: document.querySelector('#projects-list'),
   };
   if (!targets.published) return;
 

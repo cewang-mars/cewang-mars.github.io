@@ -280,15 +280,6 @@
       ]
     }
   ],
-  "submitted": [
-    {
-      "title": "Geometry First, Pixels Last: 3D-Guided Image Stitching under Large Parallax",
-      "authors": "Tianli Liao, Siqing Zhang, Ce Wang",
-      "venue": "Submitted",
-      "year": 2026,
-      "links": []
-    }
-  ],
   "preprints": [
     {
       "title": "Physics-aware Decoupled Distillation with Flow-based Synthesis for Robust Monocular Depth Estimation",
@@ -320,6 +311,13 @@
     {
       "title": "S2MeR: Self-Supervised Mesh-Based Video Retargeting with Temporal and Geometric Consistency",
       "authors": "Tianli Liao, Ran Wang, Siqing Zhang, Guangen Liu, Lei Li, Ce Wang",
+      "venue": "Submitted",
+      "year": 2026,
+      "links": []
+    },
+    {
+      "title": "Geometry First, Pixels Last: 3D-Guided Image Stitching under Large Parallax",
+      "authors": "Tianli Liao, Siqing Zhang, Ce Wang",
       "venue": "Submitted",
       "year": 2026,
       "links": []

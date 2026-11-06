@@ -53,7 +53,7 @@ async function renderPublications() {
   if (!targets.published) return;
 
   try {
-    const response = await fetch('./data/publications.json');
+    const response = await fetch('./data/publications.json?v=20261106b');
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     const data = await response.json();
     const papersBySection = {

@@ -56,9 +56,16 @@ async function renderPublications() {
     const response = await fetch('./data/publications.json');
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     const data = await response.json();
+    const papersBySection = {
+      published: Array.isArray(data.published) ? data.published : [],
+      preprints: [
+        ...(Array.isArray(data.submitted) ? data.submitted : []),
+        ...(Array.isArray(data.preprints) ? data.preprints : []),
+      ],
+    };
     for (const [key, target] of Object.entries(targets)) {
       target.replaceChildren();
-      for (const paper of data[key] || []) {
+      for (const paper of papersBySection[key]) {
         const item = document.createElement('li');
         item.className = 'publication-item';
         const body = document.createElement('div');

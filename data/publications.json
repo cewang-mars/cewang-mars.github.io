@@ -18,10 +18,15 @@
     },
     {
       "title": "Scattering-Aware Implicit Neural Representation for CT Metal Artifact Reduction",
-      "authors": "Ruibo Wang, Junran Yang, Zhangling Chen, Ce Wang, Kun Shang*",
+      "authors": "Ruibo Wang, Junran Yang, Ziyi Shen, Zhangling Chen, Ce Wang, Dong Liang, Kun Shang*",
       "venue": "IEEE Signal Processing Letters",
       "year": 2026,
-      "links": []
+      "links": [
+        {
+          "label": "Paper",
+          "url": "https://ieeexplore.ieee.org/document/11782782"
+        }
+      ]
     },
     {
       "title": "Leveraging Unlabeled Data via Semi-Supervised Contrastive Learning for Enhanced Monocular Depth Estimation",
